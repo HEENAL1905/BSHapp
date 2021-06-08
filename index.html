@@ -45,7 +45,6 @@
       <a href="#careers" class="w3-bar-item w3-button"> CAREERS</a>
       <a href="#contact" class="w3-bar-item w3-button"> CONTACT</a>
       <a href="https://play.google.com/store/apps/details?id=com.developer.bshapp"> <button class="btn"><i class="fa fa-play"></i>&nbspDownload now</button></a>
-    
     </div>
     <!-- Hide right-floated links on small screens and replace them with a menu icon -->
 
@@ -244,14 +243,14 @@
   </div>
   <div class="row">
     <div id ="contact" class="column">
-      <form style="font-size:20px;vertical-align: middle;" class="form" action="insert.php" method="POST">
+      <form style="font-size:20px;vertical-align: middle;" class="form" action="DB/bshinsert.php" method="POST">
         <label for="fname">Name</label><br>
         <input type="text" id="fname" name="firstname"><br>
         <label for="Email">Email:</label><br>
         <input type="text" id="Email" name="email"><br>
-        <label for="Message">Message:</label><br>
-        <input type="text" id="Message" name="message"><br><br>
-        <button class ="btn" type="button">Send</button>
+        <label for="msg">Message:</label><br>
+        <input type="text" id="msg" name="msg"><br><br>
+        <button class ="btn" type="submit" name="submit" value="Submit">Submit</button>
     
       </form>
     </div>
